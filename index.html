@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Je suis une développeuse front-end spécialisée dans la création de sites web dynamiques et réactifs. Avec des compétences solides en HTML, CSS, JavaScript et React, j'aime transformer des designs en expériences utilisateur fluides et attrayantes. Explorez mon portfolio pour découvrir mes projets et réalisations."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Rouguiatou Diallo - Développeuse Front-end"
+    />
+    <meta
+      property="og:image"
+      content="https://rougui224.github.io/my-portfolio/src/assets/pictures/developpeuse_web.webp"
+    />
+    <meta
+      property="og:description"
+      content="Je suis une développeuse front-end spécialisée dans la création de sites web dynamiques et réactifs. Avec des compétences solides en HTML, CSS, JavaScript et React, j'aime transformer des designs en expériences utilisateur fluides et attrayantes. Explorez mon portfolio pour découvrir mes projets et réalisations."
+    />
+    <meta property="og:site_name" content="Portfolio" />
+    <meta
+      property="og:url"
+      content="https://rougui224.github.io/my-portfolio/"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://rougui224.github.io/my-portfolio/src/assets/pictures/developpeuse_web.webp"
+    />
+    <meta
+      name="twitter:description"
+      content="Je suis une développeuse front-end spécialisée dans la création de sites web dynamiques et réactifs. Avec des compétences solides en HTML, CSS, JavaScript et React, j'aime transformer des designs en expériences utilisateur fluides et attrayantes. Explorez mon portfolio pour découvrir mes projets et réalisations."
+    />
+    <meta
+      name="twitter:url"
+      content="https://rougui224.github.io/my-portfolio/"
+    />
+
+    <!-- LinkedIn -->
+    <meta
+      property="og:image"
+      content="https://rougui224.github.io/my-portfolio/src/assets/pictures/developpeuse_web.webp"
+    />
+    <meta
+      property="og:image:alt"
+      content="Rouguiatou Diallo - Développeuse Front-end"
+    />
+
+    <title>Rouguiatou Diallo | Portfolio</title>
+  </head>
+  <body class="mode-sombre">
+    <header class="header">
+      <h1 class="header_title">
+        Rouguiatou
+        <span>Diallo</span>
+      </h1>
+      <nav class="header_navigation">
+        <ul>
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skill">Compétences</a></li>
+          <li><a href="#project">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header_toggleMode">
+        <div class="sun">
+          <svg
+            class="my-svg light"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"
+            />
+          </svg>
+        </div>
+        <div class="moon">
+          <svg
+            class="my-svg dark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path
+              d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- Icône de menu pour mobile -->
+      <div id="menu-icon" class="menu-icon">☰</div>
+      <span id="close-modal" class="close">&times;</span>
+
+      <!-- Menu modale -->
+      <div id="modal-menu" class="modal-menu">
+        <div class="modal-content">
+          <nav class="menu_navigation">
+            <ul>
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#skill">Compétences</a></li>
+              <li><a href="#project">Projets</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="home" id="home">
+        <img
+          src="./src/assets/pictures/developpeuse_web.webp"
+          alt="developpeuse web "
+          class="home_picture"
+        />
+        <section class="home_section">
+          <h2 class="home_section_title">
+            Salut, je suis
+            <br />
+            Rouguiatou
+            <span>Diallo</span>
+          </h2>
+          <p class="home_section_description">
+            <span
+              class="animated-text"
+              data-text="Développeuse Front-end"
+            ></span>
+            <span class="cursor">|</span>
+          </p>
+          <p class="home_section_description-about">
+            En tant que développeuse front-end passionnée, je me consacre à la
+            création d'interfaces utilisateurs intuitives et pertinentes,
+            alliant esthétique et fonctionnalité. Avec une expertise approfondie
+            en HTML, CSS, JavaScript et une maîtrise des frameworks modernes, je
+            transforme les idées en applications numériques innovantes. Mon
+            objectif est de donner vie aux concepts de mes clients, en offrant
+            des expériences web interactives et immersives
+          </p>
+          <a
+            href="./src/assets/Documents/Rouguiatou-Diallo.pdf"
+            target="_blank"
+          >
+            <i class="fa-solid fa-download"></i>
+            Télécharger mon CV
+          </a>
+        </section>
+      </div>
+      <section class="about" id="about">
+        <div>
+          <h2 class="about_title">À Propos de Moi</h2>
+          <p>
+            Avec une solide formation en mathématiques obtenue durant mon
+            parcours scolaire, j'ai développé un vif intérêt pour le domaine du
+            développement logiciel il y a environ un an. Cette nouvelle passion
+            m'a conduit à suivre un programme de formation en ligne intensif,
+            équivalent à un diplôme de niveau Bac+2. Ce cursus, très axé sur la
+            pratique, m'a immergé dans des scénarios réels, m'obligeant à
+            aborder chaque projet comme un développeur professionnel. Tout au
+            long de ma formation, j'ai acquis une expérience pratique et affiné
+            mes compétences, veillant à ne pas seulement apprendre des concepts
+            théoriques, mais à les appliquer efficacement. Chaque projet que
+            j'ai réalisé est le témoignage de mon engagement envers l'excellence
+            et ma capacité à résoudre des problèmes complexes. Mon parcours dans
+            ce domaine ne fait que commencer, et je suis impatiente de continuer
+            à évoluer et à contribuer à des projets innovants. Mon bagage
+            académique, combiné à ma formation pratique, m'a doté d'un ensemble
+            de compétences solides et d'une détermination à exceller en tant que
+            développeuse front-end.
+          </p>
+        </div>
+      </section>
+      <section class="skill" id="skill">
+        <h2>Compétences</h2>
+        <div>
+          <span>
+            <img
+              src="./src/assets/pictures/HTML-logo.webp"
+              alt="Html logo transparent"
+              data-title="HTML: Langage de balisage utilisé pour structurer le contenu web"
+            />
+          </span>
+          <span>
+            <img
+              src="./src/assets/pictures/CSS-logo.webp"
+              alt="css logo transparent"
+              data-title="CSS: Langage de style utilisé pour décrire la présentation des documents HTML"
+            />
+          </span>
+          <span class="left">
+            <img
+              src="./src/assets/pictures/JS-logo.webp"
+              alt="Javascript logo transparent"
+              data-title="JavaScript: Langage de programmation utilisé pour rendre les pages web interactives"
+            />
+          </span>
+        </div>
+        <div>
+          <span>
+            <img
+              src="./src/assets/pictures/React-logo.webp"
+              alt="React logo transparent"
+              data-title="React: Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques"
+            />
+          </span>
+          <span>
+            <img
+              src="./src/assets/pictures/Github-logo.webp"
+              alt="github logo transparent"
+              data-title="GitHub: Plateforme de développement collaboratif pour héberger et gérer du code"
+            />
+          </span>
+          <span class="left">
+            <img
+              src="./src/assets/pictures/Notion-logo.webp"
+              alt="Notion logo transparent"
+              data-title="Notion: Outil de productivité tout-en-un pour la gestion de projets et la prise de notes"
+            />
+          </span>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <h2>Mes projets</h2>
+        <div class="card-container">
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="./src/assets/pictures/ohmyfood-projet.webp"
+                alt="Ohmyfood - Projet Openclassroom"
+              />
+              <h3>Ohmyfood</h3>
+              <p>HTML, CSS, Sass</p>
+            </article>
+            <article class="card-back">
+              <h3>Ohmyfood</h3>
+              <p>
+                Ce projet est une simulation d'une application de commande de
+                repas en ligne. Il utilise HTML, CSS, et Sass pour créer une
+                interface utilisateur réactive et attrayante.
+              </p>
+              <div>
+                <a
+                  href="https://github.com/Rougui224/ohmfood"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/ohmfood/"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="./src/assets/pictures/jeu-du-pendu.webp"
+                alt="Jeu du pendu - hangman"
+              />
+              <h3>Jeu du Pendu</h3>
+              <p>Javascript - Notions de bases</p>
+            </article>
+            <article class="card-back">
+              <h3>Jeu du Pendu</h3>
+              <p>
+                C'était un projet pour apprendre les bases de JavaScript et sa
+                logique. J'ai développé un jeu de pendu interactif en utilisant
+                JavaScript pour créer une expérience utilisateur engageante.
+              </p>
+
+              <div>
+                <a
+                  href="https://github.com/Rougui224/hangman"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/hangman/"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="./src/assets/pictures/sophie-bluel.webp"
+                alt="Sophie Bluel Portfolio - Projet Openclassroom"
+              />
+
+              <h3>Sophie Bluel | Portfolio</h3>
+              <p>Javascript - API</p>
+            </article>
+            <article class="card-back">
+              <h3>Sophie Bluel | Portfolio</h3>
+              <p>
+                Ma mission était de dynamiser le site de cette architecte en
+                utilisant JavaScript. J'ai implémenté un mode de
+                connexion/déconnexion et intégré la communication avec le
+                backend pour récupérer les données du site via une API.
+                <br />
+                Ce projet nécessite une installation du backend en local.
+              </p>
+
+              <div>
+                <a
+                  href="https://github.com/Rougui224/Portfolio-SophieBluel"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/Portfolio-SophieBluel/ "
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+                alt="Appartement - Kasa - Projet Openclassroom"
+              />
+
+              <h3>Kasa</h3>
+              <p>React , React-DOM , DataContext - API</p>
+            </article>
+            <article class="card-back">
+              <h3>Kasa</h3>
+              <p>
+                Ma mission était de créer une application React pour la location
+                immobilière. J'ai utilisé React combiné avec React DOM et
+                DataContext pour proposer une plateforme de location entre
+                particuliers offrant plusieurs logements.
+              </p>
+
+              <div>
+                <a
+                  href="https://github.com/Rougui224/Kasa"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/Kasa/"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="./src/assets/pictures/bank-tree.webp"
+                alt="Argent Bank - Projet Openclassroom"
+              />
+
+              <h3>Argent-Bank</h3>
+              <p>React , Redux-toolkit , API</p>
+            </article>
+            <article class="card-back">
+              <h3>Argent-Bank</h3>
+              <p>
+                Ma mission était d'utiliser React et Redux pour éviter le
+                passage de props entre composants. J'ai également utilisé une
+                API pour communiquer avec le backend et gérer les transactions
+                bancaires.
+                <br />
+                Ce projet nécessite une installation du backend en local.
+              </p>
+
+              <div>
+                <a
+                  href="https://github.com/Rougui224/Argent-Bank "
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/Argent-Bank/"
+                  class="card-back_link"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-front">
+              <img
+                src="./src/assets/pictures/photographe_bordeaux_camera.webp"
+                alt="Nina Carducci|Référencement SEO - projet Openclassroom "
+              />
+
+              <h3>Nina Carducci | Portfolio</h3>
+              <p>SEO, Optimisation d'images, Balises meta</p>
+            </article>
+            <article class="card-back">
+              <h3>Nina Carducci | Portfolio</h3>
+              <p>
+                Ma mission était d'optimiser le référencement SEO du site de la
+                photographe. J'ai optimisé les images et les textes, en
+                utilisant les balises meta et d'autres pratiques SEO pour
+                améliorer la visibilité du site sur les moteurs de recherche.
+              </p>
+
+              <div>
+                <a
+                  href="https://github.com/Rougui224/Optimisation-SEO"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  Voir le repos github
+                </a>
+                <a
+                  href="https://rougui224.github.io/Optimisation-SEO/"
+                  target="_blank"
+                  class="card-back_link"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Voir le site en ligne
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+          <div>
+            <fieldset>
+              <label for="firstName">Nom :</label>
+              <br />
+              <input type="text" id="firstName" name="firstName" />
+            </fieldset>
+            <fieldset>
+              <label for="lastName">Prénom :</label>
+              <br />
+              <input type="text" id="lastName" name="lastName" />
+            </fieldset>
+            <fieldset>
+              <label for="email">Email :</label>
+              <br />
+              <input type="text" id="email" name="email" />
+            </fieldset>
+          </div>
+
+          <fieldset class="contact-form-message">
+            <label for="message">Votre message :</label>
+            <br />
+            <textarea name="message" id="message"></textarea>
+            <button onClick="sendEmail()">Envoyer</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer><p>©2024 Rouguiatou Diallo</p></footer>
+    <script src="./src/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b5b61096f1.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "LocalBusiness",
+        "name": "Rouguiatou Diallo",
+        "description": "Développeuse Web",
+        "image": "https://rougui224.github.io/my-portfolio/src/assets/pictures/developpeuse_web.webp",
+        "url": "https://rougui224.github.io/my-portfolio/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Coligny",
+          "addressLocality": "Orléans",
+          "postalCode": "45000",
+          "addressRegion": "Loiret",
+          "addressCountry": "France"
+        },
+        "telephone": "+33652585704",
+        "openingHours": "Mo-Fr 10:00-19:00"
+      }
+    </script>
+  </body>
+</html>
