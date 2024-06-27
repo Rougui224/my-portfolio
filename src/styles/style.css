@@ -705,7 +705,8 @@ footer p {
     align-self: center;
     margin: 20px;
   }
-  .contact input {
+  .contact input,
+  .contact textarea {
     font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
