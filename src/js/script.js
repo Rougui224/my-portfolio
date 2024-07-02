@@ -62,9 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll(".header_navigation a");
 
   // Initialise la position de défilement précédente
-  let index = 0,
-    lastScrollY;
-  let isDeleting = false;
+  let lastScrollY;
 
   // Fonction pour mettre à jour le lien actif en fonction de la position de défilement
   const updateActiveLink = () => {
@@ -153,7 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // ***********Animation du texte "Développeuse front-end" *************
   const textElement = document.querySelector(".animated-text");
   const text = textElement.getAttribute("data-text");
-
+  let isDeleting = false;
+  let index = 0;
   function typeEffect() {
     if (!isDeleting) {
       // Écriture du texte
